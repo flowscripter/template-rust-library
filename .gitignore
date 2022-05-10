@@ -3,4 +3,4 @@
 /*.lcov
 /.releaserc
 /node_modules
-/Cargo.lock
+Cargo.lock
