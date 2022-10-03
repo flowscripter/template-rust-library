@@ -35,8 +35,6 @@ Lint: `cargo fmt`
 
 ### Overview
 
-PNG image generated from `images/uml_diagram.mermaid`:
-
 ```mermaid
 classDiagram
     Foo <|-- Bar
