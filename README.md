@@ -37,7 +37,10 @@ Lint: `cargo fmt`
 
 PNG image generated from `images/uml_diagram.mermaid`:
 
-![UML Diagram](https://raw.githubusercontent.com/flowscripter/template-rust-library/main/images/uml_diagram.png "UML Diagram")
+```mermaid
+classDiagram
+    Foo <|-- Bar
+```
 
 ### API
 
