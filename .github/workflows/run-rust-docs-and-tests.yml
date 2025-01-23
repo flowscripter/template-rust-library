@@ -1,4 +1,4 @@
-name: run-deno-docs-and-tests
+name: run-rust-docs-and-tests
 on:
   pull_request:
     branches: [main]
@@ -6,15 +6,13 @@ jobs:
   check-docs:
     runs-on: ubuntu-latest
     steps:
-      - name: Deno Docs
-        uses: flowscripter/.github/actions/generate-deno-docs@v1
+      - name: Rust Docs
+        uses: flowscripter/.github/actions/generate-rust-docs@v1
   test:
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
         os: [macOS-latest, windows-latest, ubuntu-latest]
     steps:
-      - name: Test Deno
-        uses: flowscripter/.github/actions/run-deno-tests@v1
-        with:
-          codecov-token: ${{ secrets.CODECOV_TOKEN }}
+      - name: Test Rust
+        uses: flowscripter/.github/actions/run-rust-tests@v1
