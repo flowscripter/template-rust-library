@@ -7,7 +7,7 @@
 [![rust doc](https://img.shields.io/docsrs/flowscripter_template_rust_library)](https://docs.rs/flowscripter_template_rust_library)
 [![license: MIT](https://img.shields.io/github/license/flowscripter/template-rust-library)](https://github.com/flowscripter/template-rust-library/blob/main/LICENSE)
 
-> Project template for a Rust library
+> Project template for a Rust library.
 
 ## Project Template Usage
 
