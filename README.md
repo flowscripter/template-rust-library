@@ -35,6 +35,8 @@ Lint: `cargo fmt`
 
 ### Overview
 
+Sample mermaid diagram to test rendering in markdown:
+
 ```mermaid
 classDiagram
     Foo <|-- Bar
@@ -42,7 +44,7 @@ classDiagram
 
 ### API
 
-Link to auto-generated API docs for the library:
+Link to auto-generated API docs:
 
 [API Documentation](https://docs.rs/flowscripter_template_rust_library)
 
