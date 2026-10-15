@@ -29,7 +29,7 @@ Build: `cargo build`
 
 Test: `cargo test`
 
-Lint: `cargo fmt`
+Format: `cargo fmt`
 
 ## Documentation
 
