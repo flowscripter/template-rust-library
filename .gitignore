@@ -4,3 +4,6 @@
 /.releaserc
 /node_modules
 Cargo.lock
+.claude/*
+!.claude/CLAUDE.md
+!.claude/skills/
