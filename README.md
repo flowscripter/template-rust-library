@@ -48,6 +48,11 @@ Link to auto-generated API docs:
 
 [API Documentation](https://docs.rs/flowscripter_template_rust_library)
 
+## Design Records
+
+- [Architecture decision records](design/adr/) for decisions specific to this repo
+- [Change specs and plans](design/changes/) from the agentic development workflow
+
 ## License
 
 MIT © Flowscripter
